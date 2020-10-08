@@ -12,9 +12,10 @@ message GreetingRequest {
 }
 
 message GreetingResponse {
-  string greeting = 1;
+  string name = 1;
 }
 
 service GreetingService {
   rpc Greeting(GreetingRequest) returns (GreetingResponse);
+  rpc RandomGreetings(GreetingRequest) returns (stream GreetingResponse);
 }
