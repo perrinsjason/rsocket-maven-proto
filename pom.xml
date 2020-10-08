@@ -91,4 +91,13 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>Demo maen rsocket proto library</name>
+            <url>https://maven.pkg.github.com/perrinsjason/rsocket-maven-proto</url>
+        </repository>
+    </distributionManagement>
+
+
 </project>
