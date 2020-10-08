@@ -4,7 +4,7 @@ package proto.example;
 
 option java_multiple_files = true;
 option java_outer_classname = "GreetingeProto";
-option java_package = "com.proto.example.";
+option java_package = "com.proto.example";
 
 
 message GreetingRequest {
